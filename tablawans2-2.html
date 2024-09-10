@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de Enlaces WAN</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 18px;
+            text-align: left;
+        }
+        thead {
+            background-color: #4CAF50;
+            color: white;
+        }
+        th, td {
+            padding: 12px 15px;
+            border: 1px solid #ddd;
+        }
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        tbody tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Enlace WAN</th>
+                <th>Red</th>
+                <th>IP Lima</th>
+                <th>IP Sucursal</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Lima - Arequipa</td>
+                <td>10.1.1.0/30</td>
+                <td>10.1.1.1</td>
+                <td>10.1.1.2</td>
+            </tr>
+            <tr>
+                <td>Lima - Piura</td>
+                <td>10.1.1.4/30</td>
+                <td>10.1.1.5</td>
+                <td>10.1.1.6</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Outcomes</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-top: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            margin-bottom: 30px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 25px 0;
+            font-size: 1rem;
+            min-width: 400px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+
+        table thead tr {
+            background-color: #009879;
+            color: #ffffff;
+            text-align: left;
+        }
+
+        table th,
+        table td {
+            padding: 12px 15px;
+            text-align: left;
+        }
+
+        table tbody tr {
+            border-bottom: 1px solid #dddddd;
+        }
+
+        table tbody tr:nth-of-type(even) {
+            background-color: #f3f3f3;
+        }
+
+        table tbody tr:last-of-type {
+            border-bottom: 2px solid #009879;
+        }
+
+        table tbody tr:hover {
+            background-color: #f1f1f1;
+            cursor: pointer;
+        }
+
+        .outcome-title {
+            font-weight: bold;
+            color: #009879;
+        }
+
+        .outcome-desc {
+            color: #555;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+
+            table,
+            th,
+            td {
+                font-size: 0.9rem;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Student Outcomes por Integrante</h1>
+    <div class="container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Integrante</th>
+                    <th>Student Outcome</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Adrián Enrique Jesús Palma Obispo</td>
+                    <td>
+                        <p class="outcome-title">Outcome 1:</p>
+                        <p class="outcome-desc">Demostrar capacidad de identificar y resolver problemas complejos relacionados con la infraestructura de red, aplicando principios de ingeniería para el análisis y diseño físico y lógico de la red (LAN y WAN), asegurando escalabilidad y seguridad.</p>
+                        <p><strong>Hito 1:</strong> Diseño físico y lógico de la topología de red (LAN y WAN).</p>
+                        <p><strong>Hito 2:</strong> Verificación del diseño con pruebas de conectividad y seguridad.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Rodrigo</td>
+                    <td>
+                        <p class="outcome-title">Outcome 2:</p>
+                        <p class="outcome-desc">Demostrar capacidad de diseñar soluciones de redes basadas en un esquema de direccionamiento IP estandarizado, considerando factores como seguridad, escalabilidad y conectividad entre sedes.</p>
+                        <p><strong>Hito 1:</strong> Planificación del direccionamiento IP y segmentación en VLANs por departamento en todas las sedes.</p>
+                        <p><strong>Hito 2:</strong> Revisión y ajustes del esquema de direccionamiento durante las pruebas de conectividad.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Harold</td>
+                    <td>
+                        <p class="outcome-title">Outcome 3:</p>
+                        <p class="outcome-desc">Demostrar capacidad de evaluar la viabilidad técnica y económica del diseño de red, seleccionando equipos y tecnologías apropiadas, y ajustando la infraestructura conforme a las pruebas y necesidades del cliente.</p>
+                        <p><strong>Hito 1:</strong> Dimensionamiento técnico-económico, especificación de equipos y presupuesto.</p>
+                        <p><strong>Hito 2:</strong> Evaluación y ajuste del diseño en base a las pruebas finales.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Aldiaz</td>
+                    <td>
+                        <p class="outcome-title">Outcome 4:</p>
+                        <p class="outcome-desc">Demostrar capacidad para implementar redes LAN y WAN, configurando dispositivos y aplicando políticas de segmentación y seguridad que aseguren una operación eficiente y segura.</p>
+                        <p><strong>Hito 1:</strong> Configuración de LANs (VLANs, InterVLANs, enrutamiento).</p>
+                        <p><strong>Hito 2:</strong> Implementación de la conectividad WAN y pruebas de comunicación entre sedes.</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>C</td>
+                    <td>
+                        <p class="outcome-title">Outcome 5:</p>
+                        <p class="outcome-desc">Demostrar capacidad para configurar servicios de red y aplicar medidas de seguridad que aseguren el acceso y funcionamiento adecuado de los recursos dentro de la infraestructura.</p>
+                        <p><strong>Hito 1:</strong> Configuración de servicios (DNS, Web, FTP, DHCP, correo) y políticas de seguridad (firewalls, segmentación).</p>
+                        <p><strong>Hito 2:</strong> Evaluación de la seguridad mediante pruebas, e implementación de soluciones en la nube si es viable.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect x="0" y="0" width="800" height="600" fill="#f0f0f0"/>
+  
+  <!-- Router Principal -->
+  <rect x="350" y="50" width="100" height="50" fill="#FFD700"/>
+  <text x="400" y="80" font-family="Arial" font-size="14" text-anchor="middle">Router Principal</text>
+  
+  <!-- Firewall -->
+  <polygon points="400,120 375,170 425,170" fill="#FF6347"/>
+  <text x="400" y="155" font-family="Arial" font-size="14" text-anchor="middle">Firewall</text>
+  
+  <!-- Switch Multicapa -->
+  <rect x="350" y="200" width="100" height="50" fill="#98FB98"/>
+  <text x="400" y="230" font-family="Arial" font-size="14" text-anchor="middle">Switch Multicapa</text>
+  
+  <!-- Switches de Acceso -->
+  <rect x="100" y="300" width="100" height="50" fill="#87CEFA"/>
+  <text x="150" y="330" font-family="Arial" font-size="14" text-anchor="middle">Switch Acceso 1</text>
+  
+  <rect x="250" y="300" width="100" height="50" fill="#87CEFA"/>
+  <text x="300" y="330" font-family="Arial" font-size="14" text-anchor="middle">Switch Acceso 2</text>
+  
+  <rect x="450" y="300" width="100" height="50" fill="#87CEFA"/>
+  <text x="500" y="330" font-family="Arial" font-size="14" text-anchor="middle">Switch Acceso 3</text>
+  
+  <rect x="600" y="300" width="100" height="50" fill="#87CEFA"/>
+  <text x="650" y="330" font-family="Arial" font-size="14" text-anchor="middle">Switch Acceso 4</text>
+  
+  <!-- Access Point -->
+  <circle cx="400" cy="400" r="30" fill="#FFA07A"/>
+  <text x="400" y="405" font-family="Arial" font-size="14" text-anchor="middle">AP</text>
+  
+  <!-- Conexiones -->
+  <line x1="400" y1="100" x2="400" y2="120" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="170" x2="400" y2="200" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="250" x2="150" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="250" x2="300" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="250" x2="500" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="250" x2="650" y2="300" stroke="black" stroke-width="2"/>
+  <line x1="400" y1="250" x2="400" y2="370" stroke="black" stroke-width="2"/>
+</svg>
